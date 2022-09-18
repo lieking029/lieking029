@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container .github-details {
+    text-align: center;
+}
+
+.footer-container .github-details p {
+    font-size: 50px;
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: thin 0.5px black;
+    padding: 5px 30px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.btn-default {
+    background: white;
+}
+

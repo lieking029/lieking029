@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container .heading {
+    font-size: 50px;
+}
+
+.design-details .fma {
+    margin-left: 80px; 
+    width: 500px;
+    text-align: center;
+}
+
+.design-details .fma h5{
+    margin-top: 15%;
+    font-size: 64px;
+    color: #FE6A2A;
+}
+
+.design-details p {
+    font-size: 25px;
+}
+
+.details {
+    width: 700px;
+    text-align: center;
+}
+.design-details .beanleaf{
+    margin-left: 80px; 
+    width: 500px;
+    text-align: center;
+}
+
+.design-details .beanleaf h5{
+    margin-top: 20%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    color: #B46100;
+}
+
+.image-container{
+    margin-top: 10%;
+    background: #3D3C3C;
+    width: 50%;
+}
+
+.image-container .images {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container .register{
+    /* margin: 0 5px 0 5px; */
+    width: 30%;
+}
+
+.image-container .web-images{
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+.image-container .web-images .coffee{
+    width: 50%;
+}
+
+.bottom-details {
+    margin-top: 10%;
+}
+
+.bottom-details p{
+    width: 750px;
+    font-size: 45px;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: thin 0.5px black;
+    padding: 5px 30px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.btn-default {
+    background: white;
+}
+
+.contacts {
+    margin-top: 3%;
+}
+
+.contacts .title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contacts-details {
+    font-size: 25px;
+    display: flex;
+}
