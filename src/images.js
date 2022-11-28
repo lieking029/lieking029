@@ -1,15 +1,21 @@
-import vetm from './assets/img/vet-m.png';
-import SignIn from './assets/img/SignIn Page.png';
-import Register from './assets/img/Register Page.png';
-import Login from './assets/img/Login.png';
-import coffee from './assets/img/coffee.png';
-import reg from './assets/img/coffee-reg.png';
+import firebase from './assets/img/firebase.png'
+import mysql from './assets/img/mysql.svg'
+import vetm from './assets/img/vet-m.png'
+import bet from './assets/img/bet.png'
+import beanleaf from './assets/img/beanleaf.png'
+import michael from './assets/img/michael.jpg'
+import react from './assets/img/react.jpg'
+import angular from './assets/img/angular.jpg'
+import js from './assets/img/js.webp'
 
 export default {
+   firebase,
+   mysql,
    vetm,
-   SignIn,
-   Register,
-   Login,
-   coffee,
-   reg,
+   bet,
+   beanleaf,
+   michael,
+   react,
+   angular,
+   js
 };

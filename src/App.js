@@ -1,14 +1,18 @@
 import React from 'react'
-import Design from './components/design/Design'
 import Header from './components/Header/Header'
-// import Contact from './components/contacts/Contact'
+import AboutMe from './components/AboutMe/AboutMe'
+import Skills from './components/Skills/Skills'
+import Services from './components/Services/Services'
+import Projects from './components/Projects/Projects'
 
 const App = () => {
   return (
-    <div className='mt-5'>
+    <div className=''>
       <Header />
-      <Design />
-      {/* <Contact /> */}
+      <AboutMe />
+      <Services />
+      <Skills />
+      <Projects />
     </div>
   )
 }

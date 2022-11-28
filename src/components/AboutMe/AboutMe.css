@@ -1,0 +1,45 @@
+.michael {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.container-fluid {
+    height: auto;
+}
+
+.paragraph {
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .paragraph {
+        width: 85%;
+        margin-left: 55%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .paragraph {
+        margin-left: 0%;
+    }
+
+    .michael {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .michael {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .paragraph {
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 5%;
+        width: 100%;
+        margin: 10% 1% 5% 6%;
+    }
+}
