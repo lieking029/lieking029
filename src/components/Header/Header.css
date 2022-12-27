@@ -1,23 +1,72 @@
-.container-fluid {
-    background: #087990;
+#header-con {
+    height: 68vh;
+    background: #ebebeb;
+    /* padding-bottom: 10%; */
+}
+
+.p__pad {
+    padding-top: 10%;
+}
+
+.p__pad1 {
+    margin-top: 5%;
+}
+
+.h6__header {
+    color: rgb(8, 120, 224);
+}
+
+.michael1 {
+    height: 50vh;
     width: 100%;
-    height: 100vh;
-    padding-bottom: 10%;
 }
 
-.card-pad {
-    padding-top: 20%;
+.borderBlue {
+    border: 1px solid rgb(0, 148, 246);
+    border-radius: 10rem;
+    transition: 0.5s;
 }
 
-.card span {
-    font-size: 10rem;
-    padding-bottom: 0;
+.borderBlue:hover {
+    border: 1px solid rgb(0, 148, 246);
+    background: rgb(0, 148, 246);
+    color: white;
+    transition: 0.5s;
 }
 
-h1 {
-    padding-top: 5px;
-    border-top: 2px solid white;
+.btnBlue {
+    background: rgb(0, 148, 246);
+    border-radius: 10rem;
+    color: white;
+    transition: 0.5s;
 }
+
+.btnBlue:hover {
+    border: 1px solid rgb(0, 148, 246);
+    background: none;
+    transition: 0.5s;
+}
+
+.Absolute {
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 2.5%; */
+}
+
+.circled {
+    border-radius: 10rem;
+}
+
+.subHeader {
+    font-size: 13px;
+    color: rgb(0, 148, 246);
+    font-weight: 600;
+}
+
+.faIcon-color {
+    color: rgb(0, 148, 246);
+}
+
 
 @media screen and (max-width: 800px) {
     .card span {

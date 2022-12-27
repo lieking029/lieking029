@@ -1,52 +1,68 @@
-import React from 'react'
-import images from '../../images'
+import React from "react";
+import { FaReact, FaAngular, FaJsSquare } from "react-icons/fa";
+import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="container mb-5">
+    <div className="container m-5">
       <div className="text-center mb-3">
-          <h1>Services Offers</h1>
+        <span className="introSpan">Specialize In</span>
+        <h1 className="fw-bolder">What I Offer</h1>
       </div>
-      <div className="justify-content-center">
-      <div className="row justify-content-between">
-
-      <div className="text-center col-lg-4 col-md-4 col-sm-8 mt-3 ">
-        <div className="card">
-        <img className="card-img-top" src={images.react} alt="Card" style={{ width: "100%" }} />
-        <div className="card-body">
-          <p className="card-text">
-            Build an interactive interfaces and web applications quickly and efficiently, creating reusable components, ultimately optimized development interface.
-          </p>
+      <div className="row">
+        <div className="col-4">
+          <div className="card border-0">
+            <div className="bg-primary w-15 text-center rounded reactIcons">
+              <FaReact size={50} style={{ color: "white" }} className="p-2" />
+            </div>
+            <div className="card-body border Braduis pt-4">
+              <h5 className="card-title mt-3">React Js</h5>
+              <p className="card-text p-3">
+                Performance enhancement or ensuring faster rendering due to
+                virual DOM, easily makes a reusable component for efficient
+                usage.
+              </p>
+            </div>
+          </div>
         </div>
+        <div className="col-4">
+          <div className="card border-0">
+            <div className="bg-primary w-15 text-center rounded reactIcons">
+              <FaAngular size={50} style={{ color: "white" }} className="p-2" />
+            </div>
+            <div className="card-body border Braduis pt-4">
+              <h5 className="card-title mt-3">Angular Js</h5>
+              <p className="card-text p-3">
+                Angular uses TypeScript a super set of JavaScript which allows
+                you see the errors in compile time rather than run time that is
+                efficient for developers.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="text-center col-lg-4 col-md-4 col-sm-8 mt-3 ">
-        <div className="card">
-        <img className="card-img-top" src={images.angular} alt="Card" style={{ width: "100%" }} />
-        <div className="card-body">
-          <p className="card-text">
-            Build an scalable web applications, more precise feature since angular is using a real DOM not a virtual. Has an excellent material design library. 
-          </p>
+        <div className="col-4">
+          <div className="card border-0">
+            <div className="bg-primary w-15 text-center rounded reactIcons">
+              <FaJsSquare
+                size={50}
+                style={{ color: "white" }}
+                className="p-2"
+              />
+            </div>
+            <div className="card-body border Braduis pt-4">
+              <h5 className="card-title mt-3">JavaScript</h5>
+              <p className="card-text p-3">
+                JavaScript is a scripting or a programming language that allows
+                you to implement complex features on your web-pages and can be
+                used for stylings and animations.
+              </p>
+            </div>
+          </div>
         </div>
-        </div>
-      </div>
-
-      <div className="text-center col-lg-4 col-md-4 col-sm-8 mt-3 ">
-        <div className="card">
-        <img className="card-img-top" src={images.js} alt="Card" style={{ width: "100%" }} />
-        <div className="card-body">
-          <p className="card-text">
-            Build a complex interactive website's features, Vanilla JS easily adopt new frameworks and libraries so it also increases my development speed
-          </p>
-        </div>
-        </div>
-      </div>
-
-      </div>
+        
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

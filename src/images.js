@@ -7,6 +7,7 @@ import michael from './assets/img/michael.jpg'
 import react from './assets/img/react.jpg'
 import angular from './assets/img/angular.jpg'
 import js from './assets/img/js.webp'
+import undraw from './assets/img/undraw.svg'
 
 export default {
    firebase,
@@ -17,5 +18,6 @@ export default {
    michael,
    react,
    angular,
-   js
+   js,
+   undraw
 };

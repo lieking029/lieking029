@@ -1,6 +1,17 @@
 .michael {
-    width: 40%;
+    position: relative;
+    width: 57%;
     border-radius: 10px;
+}
+
+.michael:before {
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: 30px;
+    border: 10px solid black;
+    width: 50%;
+    height: 50%;
 }
 
 .container-fluid {
@@ -9,6 +20,10 @@
 
 .paragraph {
     width: 70%;
+}
+
+.introSpan {
+    color: rgb(0, 148, 246);
 }
 
 @media screen and (max-width: 1000px) {
