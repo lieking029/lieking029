@@ -38,8 +38,10 @@ const Header = () => {
            </span>{" "}
            <br />
            <div className="m-3 row">
-             <button className="col-sm-4 col-lg-4 btn btnBlue p-3 mx-3 mb-2">Download CV</button>
-             <button className="col-sm-4 col-lg-4 btn borderBlue p-3 mx-3">Contact Me</button>
+           <a href="johnmichaelbuan.pdf" download="" className="col-sm-4 col-lg-4 btn btnBlue p-3 mx-3 mb-2">
+           <button className="border-0 bg-transparent" >Download CV</button>
+           </a>
+             <button className="col-sm-4 col-lg-4 btn borderBlue p-3 mx-3" disabled>Contact Me</button>
            </div>
          </div>
 
