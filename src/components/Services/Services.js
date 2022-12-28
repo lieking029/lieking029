@@ -4,13 +4,13 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="container m-5">
+    <div className="container my-5">
       <div className="text-center mb-3">
         <span className="introSpan">Specialize In</span>
         <h1 className="fw-bolder">What I Offer</h1>
       </div>
       <div className="row">
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-8">
           <div className="card border-0">
             <div className="bg-primary w-15 text-center rounded reactIcons">
               <FaReact size={50} style={{ color: "white" }} className="p-2" />
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-8">
           <div className="card border-0">
             <div className="bg-primary w-15 text-center rounded reactIcons">
               <FaAngular size={50} style={{ color: "white" }} className="p-2" />
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-8">
           <div className="card border-0">
             <div className="bg-primary w-15 text-center rounded reactIcons">
               <FaJsSquare

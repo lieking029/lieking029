@@ -12,7 +12,7 @@ const Contact = () => {
 
       <div className="container mt-5">
         <div className="row mlcontacts">
-          <div className="col d-flex">
+          <div className="col d-flex mb-3">
             <div className="contactIcons">
               <FaPhoneAlt color="white" className="mt-2" size={20} />
             </div>
@@ -21,7 +21,7 @@ const Contact = () => {
               <span>09154184580</span>
             </div>
           </div>
-          <div className="col d-flex">
+          <div className="col d-flex mb-3">
             <div className="contactIcons">
               <FaEnvelope color="white" className="mt-2" size={20} />
             </div>
@@ -30,7 +30,7 @@ const Contact = () => {
               <span>johnmichaelbuan21@gmail.com</span>
             </div>
           </div>
-          <div className="col d-flex">
+          <div className="col d-flex mb-2">
             <div className="contactIcons">
               <FaLocationArrow color="white" className="mt-2" size={20} />
             </div>

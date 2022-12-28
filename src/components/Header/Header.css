@@ -1,3 +1,7 @@
+.h100 {
+    height: 85vh;    
+}
+
 #header-con {
     height: 68vh;
     background: #ebebeb;
@@ -65,14 +69,41 @@
 
 .faIcon-color {
     color: rgb(0, 148, 246);
+    font-size: 50px;
 }
 
+.spanText {
+    font-size: 17px;
+}
 
-@media screen and (max-width: 800px) {
-    .card span {
-        font-size: 5rem;
+.w75 {
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    .h100 {
+        height: 90vh;
     }
-    .nav {
-        display: none;
+
+    #header-con {
+        height: 70vh;
     }
+
+    .faIcon-color {
+        font-size: 30px;
+    }
+
+    .w75 {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .spanText {
+        font-size: 11px;
+    }
+
+    .subHeader {
+        font-size: 9px;
+    }
+
 }

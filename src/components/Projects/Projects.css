@@ -6,3 +6,9 @@
 .projectPadd {
     padding: 70px;
 }
+
+@media screen and (max-width: 600px) {
+    .secondary {
+        height: 130vh;
+    }
+}

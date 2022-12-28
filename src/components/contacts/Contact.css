@@ -5,6 +5,23 @@
     height: 40px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .mlcontacts {
     margin-left: 7%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .michael1 {
+        display: none;
+    }
+
+    .mlcontacts {
+        margin-left: 0;
+    }
 }
